@@ -1,0 +1,21 @@
+%% -*- mode: erlang -*-
+{ application
+, inventory
+, [ {description, "An OTP application"}
+  , {vsn, "0.1.0"}
+  , {registered, []}
+  , {mod, {inventory_app, []}}
+  , {applications , [ kernel
+                    , stdlib
+                    , sasl
+                    , cowboy
+                    , jsx
+                    ]
+    }
+  , {env,[]}
+  , {modules, []}
+  , {maintainers, []}
+  , {licenses, []}
+  , {links, []}
+  ]
+}.
