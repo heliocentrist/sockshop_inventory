@@ -3,7 +3,7 @@
 Build the docker image:
 
 ```
-docker build
+docker build -t sockshopinventory_sockshop .
 ```
 
 Run:
